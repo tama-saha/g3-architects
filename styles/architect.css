@@ -3,6 +3,9 @@
     font-family: 'Work Sans';
 }
 
+body {
+    width: 100%;
+}
 
 .header {
     background: rgba(255, 144, 14, 0.1);
@@ -80,13 +83,14 @@ nav li {
 }
 
 .header img {
-    margin: 0 140px;
-    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
     width: 80%;
     border-radius: 8px;
 }
 
 .header img:hover {
     transform: rotateY(180deg);
-
 }
