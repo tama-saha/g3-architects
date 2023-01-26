@@ -3,6 +3,7 @@
     font-family: 'Work Sans';
 }
 
+
 .header {
     background: rgba(255, 144, 14, 0.1);
 }
@@ -15,7 +16,6 @@ nav {
 
 nav .nav-title {
     margin: 50px 0 0 100px;
-
     font-weight: 700;
     font-size: 45px;
 }
@@ -38,7 +38,7 @@ nav li {
 
 .header-content {
     text-align: center;
-    margin: 100px;
+    margin: 50px 100px;
 }
 
 .header-title {
@@ -60,6 +60,7 @@ nav li {
 .primary-btn {
     width: 180px;
     height: 64px;
+    text-decoration: none;
     background: #FF900E;
     border: none;
     border-radius: 8px;
@@ -67,6 +68,20 @@ nav li {
     text-align: center;
     font-weight: 600;
     font-size: 20px;
-    margin-bottom: 50px;
+}
 
+.primary-btn {
+    transition-duration: 0.4s;
+}
+
+.primary-btn:hover {
+    background-color: rgb(250, 190, 168);
+    color: white;
+}
+
+.header img {
+    margin: 0 140px;
+    margin-bottom: 50px;
+    width: 80%;
+    border-radius: 8px;
 }
