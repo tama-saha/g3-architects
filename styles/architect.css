@@ -81,7 +81,12 @@ nav li {
 
 .header img {
     margin: 0 140px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     width: 80%;
     border-radius: 8px;
+}
+
+.header img:hover {
+    transform: rotateY(180deg);
+
 }
