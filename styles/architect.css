@@ -163,6 +163,7 @@ nav li {
 .features-content img:hover {
     margin: -2px;
     border: 2px solid orange;
+    border-radius: 8px;
 }
 
 .features {
@@ -232,7 +233,22 @@ nav li {
     width: 342px;
 }
 
-
+/* facts section styles */
+.facts{
+    text-align: start;
+    margin: 130px 830px 0 80px ;
+}
+.facts-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.facts-description{
+    color: #727272;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 25px;
+}
 
 
 
