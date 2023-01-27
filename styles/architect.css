@@ -341,4 +341,58 @@ nav li {
 }
 
 
+/* contact section styles */
+
+.contact-container {
+    border-radius: 8px;
+    margin: 0 50px;
+    background: rgba(168, 90, 6, 0.1);
+    padding: 100px 100px;
+}
+
+.contact-content {
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+
+.mail-details input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    padding: 50px 0;
+}
+
+.contact-section-description {
+    text-align: justify;
+    color: #727272;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-details a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+input {
+    height: 30px;
+}
+
 /* responsive for mobile */
