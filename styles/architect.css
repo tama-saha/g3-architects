@@ -19,15 +19,15 @@ nav {
 nav .title {
     /* margin: 30px 0 0 100px; */
     font-weight: 700;
-    font-size: 65px;
+    font-size: 45px;
 }
 
 nav ul {
     /* margin: 50px 100px 0 0; */
     display: flex;
-    gap: 80px;
+    gap: 50px;
     font-weight: 500;
-    font-size: 38px;
+    font-size: 18px;
     color: #424242;
 }
 
@@ -52,35 +52,35 @@ nav li:hover {
 .header-title {
     color: #131313;
     font-weight: 700;
-    font-size: 84px;
+    font-size: 64px;
 }
 
 .header-description {
     color: #727272;
     font-weight: 400;
-    font-size: 36px;
-    padding: 20px 0px;
+    font-size: 16px;
+    padding: 30px 250px;
 }
 
 
 
 .primary-btn {
     margin: 10px 0;
-    width: 300px;
-    height: 100px;
+    width: 180px;
+    height: 64px;
     text-decoration: none;
     background: #FF900E;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     color: #FFFFFF;
     text-align: center;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
 .primary-btn:hover {
-    border: 5px solid white;
+    border: 3px solid white;
 }
 
 .header img {
@@ -88,7 +88,7 @@ nav li:hover {
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     width: 80%;
     border-radius: 8px;
 }
@@ -100,9 +100,9 @@ nav li:hover {
 /* quick list section styles */
 .quick-list-container {
     justify-content: center;
-    padding: 80px 200px 0;
+    padding: 20px 100px 0;
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 
 .quick-list-images {
@@ -117,8 +117,8 @@ nav li:hover {
 
 .quick-list-images img {
     border-radius: 8px;
-    width: 500px;
-    height: 500px;
+    width: 342px;
+    height: 342px;
 }
 
 .quick-list-images img:hover {
@@ -134,7 +134,7 @@ nav li:hover {
 .quick-list-header {
     font-style: normal;
     font-weight: 500;
-    font-size: 65px;
+    font-size: 45px;
     color: #727272;
 }
 
@@ -150,20 +150,20 @@ nav li:hover {
     margin: 30px 0;
     color: #727272;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 16px;
 }
 
 /* features section styles */
 .features-container {
     position: relative;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .features-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    margin: 0 100px;
+    gap: 50px;
+    margin: 0 80px;
 }
 
 .features-content img {
@@ -173,22 +173,22 @@ nav li:hover {
 .features-content img:hover {
     margin: -2px;
     border: 2px solid orange;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .features {
     text-align: start;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .feature {
-    padding: 50px 40px 0;
-    margin: 30px 0;
-    width: 1000px;
-    height: 250px;
+    padding: 30px 30px 0;
+    margin: 20px 0;
+    width: 500px;
+    height: 110px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .feature:hover {
@@ -198,19 +198,19 @@ nav li:hover {
 }
 
 .feature-title {
-    border-left: 9px solid #FF900E;
-    height: 180px;
+    border-left: 5px solid #FF900E;
+    height: 106px;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 45px;
     color: #131313;
-    padding-left: 25px;
+    padding-left: 20px;
 }
 
 .feature-description {
-    padding: 0 0 0px 0;
-    margin: 35px 0 25px;
+    padding: 0 0 30px 0;
+    margin: 25px 0 15px;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 16px;
     color: #727272;
 }
 
@@ -218,41 +218,41 @@ nav li:hover {
 .title {
     color: #131313;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .features,
 .details {
     color: #727272;
     font-weight: 400;
-    font-size: 30px;
-    margin: 30px 0 0px;
+    font-size: 16px;
+    margin: 10px 0 0px;
 }
 
 .btn {
     position: absolute;
     right: 40%;
-    left: 45%;
-    top: 109%;
-    -ms-transform: translateY(-150%);
-    transform: translateY(-100%);
+    left: 50%;
+    top: 100%;
+    -ms-transform: translateY(-120%);
+    transform: translateY(-110%);
 }
 
 .feature-button {
-    height: 281px;
-    width: 542px;
+    height: 161px;
+    width: 342px;
 }
 
 /* facts section styles */
 .facts {
     text-align: start;
-    margin: 300px 930px 0 90px;
+    margin: 130px 830px 0 80px;
 }
 
 .facts-title {
     color: #131313;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 45px;
 }
 
 .facts-description {
@@ -268,15 +268,15 @@ nav li:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    margin: 180px 120px;
+    margin: 100px 80px;
 }
 
 .about {
     text-align: center;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border: 1px solid #FF900E;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .about:hover {
@@ -287,20 +287,20 @@ nav li:hover {
 .about-image {
     height: 50px;
     width: 50px;
-    margin: 50px 0 10px;
+    margin: 30px 0 5px;
 }
 
 .about-title {
     color: #424242;
     font-weight: 600;
-    font-size: 80px;
-    margin: 10px 0;
+    font-size: 40px;
+    margin: 5px 0;
 }
 
 .about-description {
     color: #727272;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 15px;
 }
 
 /* our sponsors section styles*/
@@ -315,21 +315,21 @@ nav li:hover {
 .sponsors-title {
     color: #131313;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 45px;
 }
 
 .sponsors-description {
     color: #727272;
     font-weight: 400;
-    font-size: 26px;
-    padding: 30px 0;
+    font-size: 16px;
+    padding: 20px 0;
 }
 
 .sponsors-icons {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
-    margin: 80px 120px;
+    margin: 50px 80px;
 }
 
 .sponsors-icons img {
@@ -337,35 +337,35 @@ nav li:hover {
 }
 
 .icon {
-    height: 80px;
+    height: 50px;
     width: auto
 }
 
 /* footer section styles */
 .footer {
     display: block;
-    margin: 150px auto 70px auto;
+    margin: 90px auto 50px auto;
     width: 80%;
     background: #FFF4E7;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .footer-content {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     color: #424242;
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 
 /* contact section styles */
 
 .contact-container {
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 0 30px;
     background: rgba(168, 90, 6, 0.1);
-    padding: 150px 250px;
+    padding: 100px 100px;
 }
 
 .contact-content {
@@ -388,7 +388,7 @@ textarea {
 
 .section-title {
     font-weight: 700;
-    font-size: 65px;
+    font-size: 45px;
     margin-bottom: 30px;
 }
 
@@ -400,7 +400,7 @@ textarea {
     text-align: justify;
     color: #727272;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     padding-bottom: 20px;
 }
 
